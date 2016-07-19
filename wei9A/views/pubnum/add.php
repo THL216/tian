@@ -44,7 +44,7 @@
             var appid = $("input[name='appid']").val();
             var appsecret = $("input[name='appsecret']").val();
             $.getJSON('index.php?r=pubnum/checkapp&appid='+appid+'&appsecret='+appsecret,function(msg){
-                alert(msg)
+                //alert(msg)
                 if(!msg){
                     $('#checkResult').html("<span class='errorTips' id='error'>未通过检测，请确认信息后重新检测</span>");
                     $('#error').show();

@@ -38,11 +38,24 @@ class PubnumController extends Controller
             return $this->render('add');
         }else{
             $post = $request->post();
+
+
+            $atok=$this->actionRands(5);
+            $url=substr('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'],0,strpos('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'],'wei'))."wei9A/wei.php?str=".$atok;
             $pub = new Publicnum();
+            $session = Yii::$app->session;
             $pub ->appid=$post['appid'];
             $pub ->appname=$post['appname'];
             $pub ->appsecret=$post['appsecret'];
             $pub ->appdesc=$post['appdesc'];
+            $pub ->appcheck=$atok;
+            $pub ->apptoken  =  md5(rand(1000,9999));
+
+            $pub ->appurl=$url;
+            $pub ->uid= $uid = $session->get('uid', '');
+
+
+
             if($pub ->save()){
                 $this->redirect(array('/pubnum/numlist'));
             }else{
@@ -131,6 +144,27 @@ class PubnumController extends Controller
         curl_close ( $ch );
         var_dump($return);
         print_r($return);
+    }
+
+
+    public function actionRand(){
+        $arr=md5(rand(1000,9999));
+        echo $arr;
+    }
+
+
+    /*
+     *
+     */
+    public function actionRands($length){
+        $str = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $randString = '';
+        $len = strlen($str)-1;
+        for($i = 0;$i < $length;$i ++)
+        {
+            $num = mt_rand(0, $len); $randString .= $str[$num];
+        }
+        return $randString ;
     }
 
 

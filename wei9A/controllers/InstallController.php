@@ -52,7 +52,7 @@ class InstallController extends Controller
         $upwd=md5($post['upwd']);
 		$dbtem=$post['dbtem'];
         $port = $post['port'];
-        if (@$link=mysqli_connect($host.":".$port,$name,$pwd)){
+        if (@$link=mysqli_connect($host,$name,$pwd,'',$port)){
             //链接地址，
             @$db_selected=mysqli_connect($host,$name,$pwd,$db,$port);
                 if($db_selected){

@@ -66,6 +66,22 @@
             </dl>
         </li>
         <li>
+            <dl>
+                <dt>菜单管理</dt>
+                <!--当前链接则添加class:active-->
+                <dd><a href="index.php?r=menu/custom">自定义菜单</a></dd>
+                <dd><a href="index.php?r=menu/delAll">删除所有菜单</a></dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>消息回复</dt>
+                <!--当前链接则添加class:active-->
+                <dd><a href="index.php?r=pubnum/addnum">公众号添加</a></dd>
+                <dd><a href="index.php?r=pubnum/numlist">公众号列表</a></dd>
+            </dl>
+        </li>
+        <li>
             <p class="btm_infor">© 望唐集团 版权所有</p>
         </li>
     </ul>
