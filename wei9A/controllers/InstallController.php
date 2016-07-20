@@ -84,6 +84,11 @@ class InstallController extends Controller
 						'tablePrefix' => '".$post['dbtem']."',   //加入前缀名称
 					];";
                 file_put_contents('../config/db.php',$str);
+                $str1 = '<?php
+                $pdo=new PDO("mysql:host='.$post['dbhost'].';port='.$port.';dbname='.$post['db'].'","'.$post['dbname'].'","'.$post['dbpwd'].'");
+                $fix = '.$post['dbtem'].';
+                   ?>';
+			 file_put_contents('assets/db.php',$str1);
                $sql="insert into ".$post['dbtem']."user (uname,upwd) VALUES ('$uname','$upwd')";
                 mysqli_query($db_selected,$sql);
             mysqli_close($link);

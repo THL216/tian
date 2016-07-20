@@ -77,8 +77,8 @@
             <dl>
                 <dt>消息回复</dt>
                 <!--当前链接则添加class:active-->
-                <dd><a href="index.php?r=pubnum/addnum">公众号添加</a></dd>
-                <dd><a href="index.php?r=pubnum/numlist">公众号列表</a></dd>
+                <dd><a href="index.php?r=reply/index">文字回复</a></dd>
+                <dd><a href="index.php?r=reply/add">添加规则</a></dd>
             </dl>
         </li>
         <li>

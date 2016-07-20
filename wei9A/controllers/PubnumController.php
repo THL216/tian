@@ -38,9 +38,8 @@ class PubnumController extends Controller
             return $this->render('add');
         }else{
             $post = $request->post();
-
-
             $atok=$this->actionRands(5);
+			
             $url=substr('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'],0,strpos('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'],'wei'))."wei9A/wei.php?str=".$atok;
             $pub = new Publicnum();
             $session = Yii::$app->session;
@@ -50,12 +49,8 @@ class PubnumController extends Controller
             $pub ->appdesc=$post['appdesc'];
             $pub ->appcheck=$atok;
             $pub ->apptoken  =  md5(rand(1000,9999));
-
             $pub ->appurl=$url;
             $pub ->uid= $uid = $session->get('uid', '');
-
-
-
             if($pub ->save()){
                 $this->redirect(array('/pubnum/numlist'));
             }else{

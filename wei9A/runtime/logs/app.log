@@ -13404,3 +13404,2537 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1468890480.021
     'REQUEST_TIME' => 1468890480
 ]
+2016-07-19 15:44:45 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: numDate' in F:\www\wei9A\views\reply\index.php:12
+Stack trace:
+#0 F:\www\wei9A\views\reply\index.php(12): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\\www\\wei9A\\vi...', 12, Array)
+#1 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(325): require('F:\\www\\wei9A\\vi...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\www\\wei9A\\vi...', Array)
+#3 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\www\\wei9A\\vi...', Array, Object(app\controllers\ReplyController))
+#4 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\ReplyController))
+#5 F:\www\wei9A\controllers\ReplyController.php(32): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\ReplyController->actionIndex()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('reply/index', Array)
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-19 15:44:45 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/index'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=site/index'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '52460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/index'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/index'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468914285.829
+    'REQUEST_TIME' => 1468914285
+]
+2016-07-19 16:19:02 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in F:\www\wei9A\views\reply\add.php:9
+Stack trace:
+#0 F:\www\wei9A\views\reply\add.php(9): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\\www\\wei9A\\vi...', 9, Array)
+#1 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(325): require('F:\\www\\wei9A\\vi...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\www\\wei9A\\vi...', Array)
+#3 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\www\\wei9A\\vi...', Array, Object(app\controllers\ReplyController))
+#4 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('add', Array, Object(app\controllers\ReplyController))
+#5 F:\www\wei9A\controllers\ReplyController.php(42): yii\base\Controller->render('add', Array)
+#6 [internal function]: app\controllers\ReplyController->actionAdd()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('add', Array)
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('reply/add', Array)
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-19 16:19:02 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=pubnum%2Fnumlist'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '62236'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468916342.478
+    'REQUEST_TIME' => 1468916342
+]
+2016-07-19 16:19:26 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in F:\www\wei9A\views\reply\add.php:9
+Stack trace:
+#0 F:\www\wei9A\views\reply\add.php(9): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\\www\\wei9A\\vi...', 9, Array)
+#1 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(325): require('F:\\www\\wei9A\\vi...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\www\\wei9A\\vi...', Array)
+#3 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\www\\wei9A\\vi...', Array, Object(app\controllers\ReplyController))
+#4 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('add', Array, Object(app\controllers\ReplyController))
+#5 F:\www\wei9A\controllers\ReplyController.php(42): yii\base\Controller->render('add', Array)
+#6 [internal function]: app\controllers\ReplyController->actionAdd()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('add', Array)
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('reply/add', Array)
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-19 16:19:26 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=pubnum%2Fnumlist'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '62359'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468916366.175
+    'REQUEST_TIME' => 1468916366
+]
+2016-07-19 16:24:36 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator 'UID=>1' requires two operands.' in F:\www\wei9A\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('UID=>1', Array, '<span class="st...')
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 F:\www\wei9A\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 F:\www\wei9A\controllers\ReplyController.php(43): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\ReplyController->actionAdd()
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('add', Array)
+#11 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('reply/add', Array)
+#12 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-07-19 16:24:36 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '64381'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468916676.256
+    'REQUEST_TIME' => 1468916676
+]
+2016-07-19 16:24:43 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator 'UID=>1' requires two operands.' in F:\www\wei9A\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('UID=>1', Array, '<span class="st...')
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 F:\www\wei9A\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 F:\www\wei9A\controllers\ReplyController.php(43): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\ReplyController->actionAdd()
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('add', Array)
+#11 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('reply/add', Array)
+#12 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-07-19 16:24:43 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=pubnum%2Fnumlist'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '64419'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468916683.417
+    'REQUEST_TIME' => 1468916683
+]
+2016-07-19 16:39:04 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\Reply' not found' in F:\www\wei9A\controllers\ReplyController.php:37
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-19 16:39:04 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/index'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '52329'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/index'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/index'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468917544.671
+    'REQUEST_TIME' => 1468917544
+]
+2016-07-19 16:45:08 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: numDate' in F:\www\wei9A\views\reply\index.php:12
+Stack trace:
+#0 F:\www\wei9A\views\reply\index.php(12): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\\www\\wei9A\\vi...', 12, Array)
+#1 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(325): require('F:\\www\\wei9A\\vi...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\www\\wei9A\\vi...', Array)
+#3 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\www\\wei9A\\vi...', Array, Object(app\controllers\ReplyController))
+#4 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\ReplyController))
+#5 F:\www\wei9A\controllers\ReplyController.php(45): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\ReplyController->actionIndex()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('reply/index', Array)
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-19 16:45:08 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/index'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '54080'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/index'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/index'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468917908.872
+    'REQUEST_TIME' => 1468917908
+]
+2016-07-19 16:45:12 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: numDate' in F:\www\wei9A\views\reply\index.php:12
+Stack trace:
+#0 F:\www\wei9A\views\reply\index.php(12): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\\www\\wei9A\\vi...', 12, Array)
+#1 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(325): require('F:\\www\\wei9A\\vi...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\www\\wei9A\\vi...', Array)
+#3 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\www\\wei9A\\vi...', Array, Object(app\controllers\ReplyController))
+#4 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\ReplyController))
+#5 F:\www\wei9A\controllers\ReplyController.php(45): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\ReplyController->actionIndex()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('reply/index', Array)
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-19 16:45:12 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/index'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '54097'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/index'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/index'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468917912.449
+    'REQUEST_TIME' => 1468917912
+]
+2016-07-19 18:27:42 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 F:\www\wei9A\controllers\ReplyController.php(57): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionAdd()
+#6 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `wei_publicnum` WHERE uid=' in F:\www\wei9A\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 F:\www\wei9A\controllers\ReplyController.php(57): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionAdd()
+#6 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-07-19 18:27:41 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=reply/index'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '56028'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468924061.883
+    'REQUEST_TIME' => 1468924061
+]
+2016-07-19 18:28:00 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 F:\www\wei9A\controllers\ReplyController.php(35): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionIndex()
+#6 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `wei_publicnum` WHERE uid=' in F:\www\wei9A\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 F:\www\wei9A\controllers\ReplyController.php(35): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionIndex()
+#6 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-07-19 18:27:59 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '56119'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468924079.917
+    'REQUEST_TIME' => 1468924079
+]
+2016-07-19 18:28:05 [::1][-][m0q99gresb3t6mqid55tc2nu66][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 F:\www\wei9A\controllers\ReplyController.php(57): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionAdd()
+#6 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `wei_publicnum` WHERE uid=' in F:\www\wei9A\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 F:\www\wei9A\controllers\ReplyController.php(57): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionAdd()
+#6 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-07-19 18:28:05 [::1][-][m0q99gresb3t6mqid55tc2nu66][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'm0q99gresb3t6mqid55tc2nu66'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=reply/index'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=m0q99gresb3t6mqid55tc2nu66'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '56121'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468924085.105
+    'REQUEST_TIME' => 1468924085
+]
+2016-07-19 20:55:20 [::1][-][lo14gm10sh9882qigkkabicem3][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in F:\www\wei9A\views\reply\add.php:8
+Stack trace:
+#0 F:\www\wei9A\views\reply\add.php(8): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\\www\\wei9A\\vi...', 8, Array)
+#1 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(325): require('F:\\www\\wei9A\\vi...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\www\\wei9A\\vi...', Array)
+#3 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\www\\wei9A\\vi...', Array, Object(app\controllers\ReplyController))
+#4 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('add', Array, Object(app\controllers\ReplyController))
+#5 F:\www\wei9A\controllers\ReplyController.php(78): yii\base\Controller->render('add', Array)
+#6 [internal function]: app\controllers\ReplyController->actionUpd()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('upd', Array)
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('reply/upd', Array)
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-19 20:55:20 [::1][-][lo14gm10sh9882qigkkabicem3][info][application] $_GET = [
+    'r' => 'reply/upd'
+    'id' => '22'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'lo14gm10sh9882qigkkabicem3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=reply%2Findex'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=lo14gm10sh9882qigkkabicem3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '49556'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/upd&id=22'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/upd&id=22'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468932920.321
+    'REQUEST_TIME' => 1468932920
+]
+2016-07-19 21:09:21 [::1][-][lo14gm10sh9882qigkkabicem3][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file' in F:\www\wei9A\views\reply\add.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-19 21:09:21 [::1][-][lo14gm10sh9882qigkkabicem3][info][application] $_GET = [
+    'r' => 'reply/upd'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'lo14gm10sh9882qigkkabicem3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=reply%2Findex'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=lo14gm10sh9882qigkkabicem3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '53485'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/upd&id=3'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/upd&id=3'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468933761.588
+    'REQUEST_TIME' => 1468933761
+]
+2016-07-19 21:16:50 [::1][-][lo14gm10sh9882qigkkabicem3][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: numDate' in F:\www\wei9A\views\reply\add.php:10
+Stack trace:
+#0 F:\www\wei9A\views\reply\add.php(10): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\\www\\wei9A\\vi...', 10, Array)
+#1 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(325): require('F:\\www\\wei9A\\vi...')
+#2 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\www\\wei9A\\vi...', Array)
+#3 F:\www\wei9A\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\www\\wei9A\\vi...', Array, Object(app\controllers\ReplyController))
+#4 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('add', Array, Object(app\controllers\ReplyController))
+#5 F:\www\wei9A\controllers\ReplyController.php(48): yii\base\Controller->render('add', Array)
+#6 [internal function]: app\controllers\ReplyController->actionAdd()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('add', Array)
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('reply/add', Array)
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-19 21:16:50 [::1][-][lo14gm10sh9882qigkkabicem3][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'lo14gm10sh9882qigkkabicem3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=reply/index'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=lo14gm10sh9882qigkkabicem3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '56621'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468934209.994
+    'REQUEST_TIME' => 1468934209
+]
+2016-07-19 21:19:13 [::1][-][lo14gm10sh9882qigkkabicem3][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'' in F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Schema.php(451): yii\db\Command->execute()
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 F:\www\wei9A\vendor\yiisoft\yii2\db\BaseActiveRecord.php(598): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 F:\www\wei9A\controllers\ReplyController.php(60): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ReplyController->actionAdd()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `wei_reply` (`id`, `appid`, `rename`, `rekeyword`, `redesc`, `retype`) VALUES (3, 22, 'biaoti', '你好', '大家好才是真的好', 'txt')' in F:\www\wei9A\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `we...')
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Schema.php(451): yii\db\Command->execute()
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 F:\www\wei9A\vendor\yiisoft\yii2\db\BaseActiveRecord.php(598): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 F:\www\wei9A\controllers\ReplyController.php(60): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ReplyController->actionAdd()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '3' for key 'PRIMARY'
+)
+
+2016-07-19 21:19:13 [::1][-][lo14gm10sh9882qigkkabicem3][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_POST = [
+    'id' => '3'
+    'appid' => '22'
+    'rename' => 'biaoti'
+    'rekeyword' => '你好'
+    'redesc' => '大家好才是真的好'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'lo14gm10sh9882qigkkabicem3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=reply/upd&id=3'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=lo14gm10sh9882qigkkabicem3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '136'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '57309'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468934353.325
+    'REQUEST_TIME' => 1468934353
+]
+2016-07-19 21:20:37 [::1][-][lo14gm10sh9882qigkkabicem3][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'' in F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Schema.php(451): yii\db\Command->execute()
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 F:\www\wei9A\vendor\yiisoft\yii2\db\BaseActiveRecord.php(598): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 F:\www\wei9A\controllers\ReplyController.php(60): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ReplyController->actionAdd()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `wei_reply` (`id`, `appid`, `rename`, `rekeyword`, `redesc`, `retype`) VALUES (3, 22, 'biaoti', '你好', '大家好才是真的好', 'txt')' in F:\www\wei9A\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\www\wei9A\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `we...')
+#1 F:\www\wei9A\vendor\yiisoft\yii2\db\Schema.php(451): yii\db\Command->execute()
+#2 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 F:\www\wei9A\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 F:\www\wei9A\vendor\yiisoft\yii2\db\BaseActiveRecord.php(598): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 F:\www\wei9A\controllers\ReplyController.php(60): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ReplyController->actionAdd()
+#7 F:\www\wei9A\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 F:\www\wei9A\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 F:\www\wei9A\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 F:\www\wei9A\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 F:\www\wei9A\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\www\wei9A\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '3' for key 'PRIMARY'
+)
+
+2016-07-19 21:20:37 [::1][-][lo14gm10sh9882qigkkabicem3][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_POST = [
+    'id' => '3'
+    'appid' => '22'
+    'rename' => 'biaoti'
+    'rekeyword' => '你好'
+    'redesc' => '大家好才是真的好'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => 'lo14gm10sh9882qigkkabicem3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/wei9A/web/index.php?r=reply/upd&id=3'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=lo14gm10sh9882qigkkabicem3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '136'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Lenovo\\Motion Control\\;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;D:\\phpStudy\\php54n'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/www/wei9A/web/index.php'
+    'REMOTE_PORT' => '57692'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468934437.431
+    'REQUEST_TIME' => 1468934437
+]
+2016-07-20 00:48:55 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1' in /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php:900
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(900): PDOStatement->execute()
+#1 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Query.php(210): yii\db\Command->queryAll()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 /var/www/html/wei9A/controllers/ReplyController.php(35): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionIndex()
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `wei_publicnum` WHERE uid=' in /var/www/html/wei9A/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Query.php(210): yii\db\Command->queryAll()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 /var/www/html/wei9A/controllers/ReplyController.php(35): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionIndex()
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+)
+
+2016-07-20 00:48:55 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 114.249.216.216
+2016-07-20 00:48:55 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][info][application] $_GET = [
+    'r' => 'reply/index'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '0lf0khamqh7hvugplmhu67fc20'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47Kdx73WCYBM-CJMaUGpAAAAAg'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A/web/index.php?r=site/index'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=0lf0khamqh7hvugplmhu67fc20'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A/web/index.php'
+    'REMOTE_PORT' => '54218'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/index'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/index'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468975735.568
+    'REQUEST_TIME' => 1468975735
+]
+2016-07-20 01:42:13 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1' in /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php:900
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(900): PDOStatement->execute()
+#1 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Query.php(210): yii\db\Command->queryAll()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 /var/www/html/wei9A/controllers/ReplyController.php(35): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionIndex()
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `wei_publicnum` WHERE uid=' in /var/www/html/wei9A/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Query.php(210): yii\db\Command->queryAll()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 /var/www/html/wei9A/controllers/ReplyController.php(35): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionIndex()
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+)
+
+2016-07-20 01:42:13 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 114.249.216.216
+2016-07-20 01:42:13 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][info][application] $_GET = [
+    'r' => 'reply/index'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '0lf0khamqh7hvugplmhu67fc20'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47W9fLmp-bXvL6BwP@ArwAAAAo'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A/web/index.php?r=reply/add'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=0lf0khamqh7hvugplmhu67fc20'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A/web/index.php'
+    'REMOTE_PORT' => '54995'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/index'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/index'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468978933.329
+    'REQUEST_TIME' => 1468978933
+]
+2016-07-20 01:42:15 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1' in /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php:900
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(900): PDOStatement->execute()
+#1 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Query.php(210): yii\db\Command->queryAll()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 /var/www/html/wei9A/controllers/ReplyController.php(35): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionIndex()
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `wei_publicnum` WHERE uid=' in /var/www/html/wei9A/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Query.php(210): yii\db\Command->queryAll()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 /var/www/html/wei9A/controllers/ReplyController.php(35): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionIndex()
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+)
+
+2016-07-20 01:42:15 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 114.249.216.216
+2016-07-20 01:42:15 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][info][application] $_GET = [
+    'r' => 'reply/index'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '0lf0khamqh7hvugplmhu67fc20'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47W9yN@ldlXV6Uj0YTiwwAAAAs'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A/web/index.php?r=reply/add'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=0lf0khamqh7hvugplmhu67fc20'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A/web/index.php'
+    'REMOTE_PORT' => '54999'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/index'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/index'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468978935.458
+    'REQUEST_TIME' => 1468978935
+]
+2016-07-20 01:42:17 [114.249.237.159][-][0lf0khamqh7hvugplmhu67fc20][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1' in /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php:900
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(900): PDOStatement->execute()
+#1 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Query.php(210): yii\db\Command->queryAll()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 /var/www/html/wei9A/controllers/ReplyController.php(47): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionAdd()
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `wei_publicnum` WHERE uid=' in /var/www/html/wei9A/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /var/www/html/wei9A/vendor/yiisoft/yii2/db/Query.php(210): yii\db\Command->queryAll()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 /var/www/html/wei9A/controllers/ReplyController.php(47): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ReplyController->actionAdd()
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+)
+
+2016-07-20 01:42:17 [114.249.237.159][-][0lf0khamqh7hvugplmhu67fc20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 114.249.237.159
+2016-07-20 01:42:17 [114.249.237.159][-][0lf0khamqh7hvugplmhu67fc20][info][application] $_GET = [
+    'r' => 'reply/add'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '0lf0khamqh7hvugplmhu67fc20'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47W@Ro-MwEJNmgkrPLO0AAAAAM'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A/web/index.php?r=reply/index'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=0lf0khamqh7hvugplmhu67fc20'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.237.159'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A/web/index.php'
+    'REMOTE_PORT' => '55001'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/add'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=reply/add'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468978937.525
+    'REQUEST_TIME' => 1468978937
+]
+2016-07-20 02:47:24 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 0' in /var/www/html/wei9A1/controllers/MenuController.php:58
+Stack trace:
+#0 /var/www/html/wei9A1/controllers/MenuController.php(58): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/var/www/html/w...', 58, Array)
+#1 [internal function]: app\controllers\MenuController->actionToken()
+#2 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('token', Array)
+#5 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/token', Array)
+#6 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-07-20 02:47:24 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'menu/token'
+]
+
+$_POST = [
+    'di' => ''
+    'do' => '{\"button\":[{\"name\": \"主菜\",\"sub_button\": [{\"type\":\"scancode_waitmsg\",\"name\": \"苏冬冬\",\"key\":\"rselfmenu_0_0\"}]},{\"name\": \"主菜单2\",\"sub_button\": [{\"type\":\"scancode_waitmsg\",\"name\": \"说\",\"key\":\"rselfmenu_0_0\"}]}]}'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47mPAsLzHGhT-6tdmdGxAAAAAA'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A1/web/index.php?r=menu/custom'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '425'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.237.159'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '61201'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=menu/token'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=menu/token'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468982844.9
+    'REQUEST_TIME' => 1468982844
+]
+2016-07-20 02:48:22 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 0' in /var/www/html/wei9A1/controllers/MenuController.php:58
+Stack trace:
+#0 /var/www/html/wei9A1/controllers/MenuController.php(58): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/var/www/html/w...', 58, Array)
+#1 [internal function]: app\controllers\MenuController->actionToken()
+#2 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('token', Array)
+#5 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/token', Array)
+#6 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-07-20 02:48:22 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'menu/token'
+]
+
+$_POST = [
+    'di' => ''
+    'do' => '{\"button\":[{\"name\": \"主菜单1\",\"sub_button\": [{\"type\":\"scancode_waitmsg\",\"name\": \"是\",\"key\":\"rselfmenu_0_0\"}]},{\"name\": \"主菜单2\",\"sub_button\": [{\"type\":\"scancode_waitmsg\",\"name\": \"的\",\"key\":\"rselfmenu_0_0\"}]}]}'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47mdho-MwEJNmgkrPLO3gAAAAM'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A1/web/index.php?r=menu/custom'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '417'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.237.159'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '61230'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=menu/token'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=menu/token'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468982902.501
+    'REQUEST_TIME' => 1468982902
+]
+2016-07-20 03:06:46 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: id' in /var/www/html/wei9A1/views/menu/custom.php:211
+Stack trace:
+#0 /var/www/html/wei9A1/views/menu/custom.php(211): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/html/w...', 211, Array)
+#1 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/w...')
+#2 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/w...', Array)
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/w...', Array, Object(app\controllers\MenuController))
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('custom', Array, Object(app\controllers\MenuController))
+#5 /var/www/html/wei9A1/controllers/MenuController.php(40): yii\base\Controller->render('custom', Array)
+#6 [internal function]: app\controllers\MenuController->actionCustom()
+#7 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('custom', Array)
+#10 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/custom', Array)
+#11 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-20 03:06:46 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'menu/custom'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47qxh73WCYBM-CJMaUGxgAAAAg'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '61799'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=menu/custom'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=menu/custom'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468984006.48
+    'REQUEST_TIME' => 1468984006
+]
+2016-07-20 03:13:37 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: uid' in /var/www/html/wei9A1/views/menu/custom.php:266
+Stack trace:
+#0 /var/www/html/wei9A1/views/menu/custom.php(266): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/html/w...', 266, Array)
+#1 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/w...')
+#2 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/w...', Array)
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/w...', Array, Object(app\controllers\MenuController))
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('custom', Array, Object(app\controllers\MenuController))
+#5 /var/www/html/wei9A1/controllers/MenuController.php(41): yii\base\Controller->render('custom', Array)
+#6 [internal function]: app\controllers\MenuController->actionCustom()
+#7 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('custom', Array)
+#10 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/custom', Array)
+#11 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-20 03:13:37 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'menu/custom'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47sYRLP0jUG2dQu9Vy7WgAAAAQ'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '62013'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=menu/custom'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=menu/custom'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468984417.177
+    'REQUEST_TIME' => 1468984417
+]
+2016-07-20 03:14:00 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: uid' in /var/www/html/wei9A1/views/menu/custom.php:266
+Stack trace:
+#0 /var/www/html/wei9A1/views/menu/custom.php(266): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/html/w...', 266, Array)
+#1 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/w...')
+#2 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/w...', Array)
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/w...', Array, Object(app\controllers\MenuController))
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('custom', Array, Object(app\controllers\MenuController))
+#5 /var/www/html/wei9A1/controllers/MenuController.php(41): yii\base\Controller->render('custom', Array)
+#6 [internal function]: app\controllers\MenuController->actionCustom()
+#7 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('custom', Array)
+#10 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/custom', Array)
+#11 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-20 03:14:00 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'menu/custom'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47seCTcOrvNfSIKcRTooAAAAAw'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '62024'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=menu/custom'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=menu/custom'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468984440.785
+    'REQUEST_TIME' => 1468984440
+]
+2016-07-20 03:14:03 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: uid' in /var/www/html/wei9A1/views/menu/custom.php:266
+Stack trace:
+#0 /var/www/html/wei9A1/views/menu/custom.php(266): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/html/w...', 266, Array)
+#1 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/w...')
+#2 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/w...', Array)
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/w...', Array, Object(app\controllers\MenuController))
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('custom', Array, Object(app\controllers\MenuController))
+#5 /var/www/html/wei9A1/controllers/MenuController.php(41): yii\base\Controller->render('custom', Array)
+#6 [internal function]: app\controllers\MenuController->actionCustom()
+#7 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('custom', Array)
+#10 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/custom', Array)
+#11 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2016-07-20 03:14:03 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'menu/custom'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V47se4yJaicC2OS1S4IIiAAAAAc'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.237.159'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '62026'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=menu/custom'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=menu/custom'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468984443.671
+    'REQUEST_TIME' => 1468984443
+]
+2016-07-20 03:46:24 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function get() on a non-object' in /var/www/html/wei9A1/controllers/MenuController.php:77
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-20 03:46:24 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'menu/token'
+]
+
+$_POST = [
+    'di' => '25'
+    'do' => '{\"button\":[{\"name\": \"主菜单1\"},{\"name\": \"主菜单2\"}]}'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V470EAsLzHGhT-6tdmdG2wAAAAA'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A1/web/index.php?r=menu/custom'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '147'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.237.159'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '62851'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=menu/token'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=menu/token'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468986384.936
+    'REQUEST_TIME' => 1468986384
+]
+2016-07-20 03:47:56 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function get() on a non-object' in /var/www/html/wei9A1/controllers/MenuController.php:77
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-20 03:47:56 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'menu/token'
+]
+
+$_POST = [
+    'di' => '25'
+    'do' => '{\"button\":[{\"name\": \"主菜单1\"},{\"name\": \"主菜单2\"}]}'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V470bIyJaicC2OS1S4IIjwAAAAc'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A1/web/index.php?r=menu/custom'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '147'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '62889'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=menu/token'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=menu/token'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468986476.864
+    'REQUEST_TIME' => 1468986476
+]
+2016-07-20 05:04:03 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: db' in /var/www/html/wei9A1/controllers/ReplyController.php:36
+Stack trace:
+#0 /var/www/html/wei9A1/controllers/ReplyController.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/html/w...', 36, Array)
+#1 [internal function]: app\controllers\ReplyController->actionIndex()
+#2 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#5 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('reply/index', Array)
+#6 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-07-20 05:04:03 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'reply/index'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V48GQwsLzHGhT-6tdmdG4AAAAAA'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A1/web/index.php?r=menu/custom'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.237.159'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '64665'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=reply/index'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=reply/index'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468991043.186
+    'REQUEST_TIME' => 1468991043
+]
+2016-07-20 05:13:28 [114.249.216.216][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: pdo' in /var/www/html/wei9A1/controllers/InstallController.php:88
+Stack trace:
+#0 /var/www/html/wei9A1/controllers/InstallController.php(88): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/html/w...', 88, Array)
+#1 [internal function]: app\controllers\InstallController->actionCheck()
+#2 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('check', Array)
+#5 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('install/check', Array)
+#6 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-07-20 05:13:28 [114.249.216.216][-][-][info][application] $_GET = [
+    'r' => 'install/check'
+]
+
+$_POST = [
+    'step' => '2'
+    'dbhost' => '127.0.0.1'
+    'port' => '3306'
+    'db' => 'wei9'
+    'dbname' => 'root'
+    'dbpwd' => 'root'
+    'dbtem' => 'we_'
+    'uname' => 'admin'
+    'upwd' => 'admin'
+    'urepwd' => 'admin'
+    'submitname' => '下一步'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V48IeBLP0jUG2dQu9Vy7bgAAAAQ'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A1/web/index.php?r=install/two'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '149'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '65015'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=install/check'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=install/check'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468991608.259
+    'REQUEST_TIME' => 1468991608
+]
+2016-07-20 05:17:01 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\models\Publicnum::appcheck' in /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/html/wei9A1/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('appcheck', '3zqio')
+#1 /var/www/html/wei9A1/controllers/PubnumController.php(49): yii\db\BaseActiveRecord->__set('appcheck', '3zqio')
+#2 [internal function]: app\controllers\PubnumController->actionAddnum()
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('addnum', Array)
+#6 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('pubnum/addnum', Array)
+#7 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-07-20 05:17:01 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 114.249.237.159
+2016-07-20 05:17:01 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'pubnum/addnum'
+]
+
+$_POST = [
+    'appname' => 'su_dong'
+    'appid' => 'wx7f5d6c03ea712aea'
+    'appsecret' => 'ab959942dd9ade5b1405db2697b2f5b4'
+    'appdesc' => '苏冬冬'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V48JTVFi6WU@59dehwAfYQAAAAI'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A1/web/index.php?r=pubnum/addnum'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '119'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.237.159'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '65108'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=pubnum/addnum'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=pubnum/addnum'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468991821.091
+    'REQUEST_TIME' => 1468991821
+]
+2016-07-20 05:17:57 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\models\Publicnum::appcheck' in /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/html/wei9A1/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('appcheck', 'f6PM9')
+#1 /var/www/html/wei9A1/controllers/PubnumController.php(49): yii\db\BaseActiveRecord->__set('appcheck', 'f6PM9')
+#2 [internal function]: app\controllers\PubnumController->actionAddnum()
+#3 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('addnum', Array)
+#6 /var/www/html/wei9A1/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('pubnum/addnum', Array)
+#7 /var/www/html/wei9A1/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/wei9A1/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-07-20 05:17:57 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 114.249.216.216
+2016-07-20 05:17:57 [114.249.216.216][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'pubnum/addnum'
+]
+
+$_POST = [
+    'appname' => 'su_dong'
+    'appid' => 'wx7f5d6c03ea712aea'
+    'appsecret' => 'ab959942dd9ade5b1405db2697b2f5b4'
+    'appdesc' => '苏冬冬'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V48JhYyJaicC2OS1S4IIkwAAAAc'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A1/web/index.php?r=pubnum/addnum'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '119'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A1/web/index.php'
+    'REMOTE_PORT' => '65138'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=pubnum/addnum'
+    'REQUEST_URI' => '/wei9A1/web/index.php?r=pubnum/addnum'
+    'SCRIPT_NAME' => '/wei9A1/web/index.php'
+    'PHP_SELF' => '/wei9A1/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468991877.278
+    'REQUEST_TIME' => 1468991877
+]
+2016-07-20 05:18:50 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\models\Publicnum::appcheck' in /var/www/html/wei9A/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('appcheck', 'ScaFw')
+#1 /var/www/html/wei9A/controllers/PubnumController.php(49): yii\db\BaseActiveRecord->__set('appcheck', 'ScaFw')
+#2 [internal function]: app\controllers\PubnumController->actionAddnum()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('addnum', Array)
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('pubnum/addnum', Array)
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-07-20 05:18:50 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 114.249.237.159
+2016-07-20 05:18:50 [114.249.237.159][-][6esdfd29mvfmh45a9nfp59sjd1][info][application] $_GET = [
+    'r' => 'pubnum/addnum'
+]
+
+$_POST = [
+    'appname' => 'su_dong'
+    'appid' => 'wx7f5d6c03ea712aea'
+    'appsecret' => 'ab959942dd9ade5b1405db2697b2f5b4'
+    'appdesc' => '苏冬冬'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '6esdfd29mvfmh45a9nfp59sjd1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V48JuiTcOrvNfSIKcRTorAAAAAw'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A/web/index.php?r=pubnum/addnum'
+    'HTTP_COOKIE' => 'PHPSESSID=6esdfd29mvfmh45a9nfp59sjd1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '119'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.237.159'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A/web/index.php'
+    'REMOTE_PORT' => '65167'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=pubnum/addnum'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=pubnum/addnum'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468991930.634
+    'REQUEST_TIME' => 1468991930
+]
+2016-07-20 05:20:34 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\models\Publicnum::appcheck' in /var/www/html/wei9A/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('appcheck', 'K6zrF')
+#1 /var/www/html/wei9A/controllers/PubnumController.php(49): yii\db\BaseActiveRecord->__set('appcheck', 'K6zrF')
+#2 [internal function]: app\controllers\PubnumController->actionAddnum()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('addnum', Array)
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('pubnum/addnum', Array)
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-07-20 05:20:34 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 114.249.216.216
+2016-07-20 05:20:34 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][info][application] $_GET = [
+    'r' => 'pubnum/addnum'
+]
+
+$_POST = [
+    'appname' => 'qweq'
+    'appid' => 'wx92ac779ea9e5474b'
+    'appsecret' => '2341417098ab7e58ed01fd90d4caa34d'
+    'appdesc' => 'asdasda'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '0lf0khamqh7hvugplmhu67fc20'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V48KIoOfEoTWmEsVdgweOAAAAAY'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A/web/index.php?r=pubnum/addnum'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=0lf0khamqh7hvugplmhu67fc20'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '96'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A/web/index.php'
+    'REMOTE_PORT' => '61004'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=pubnum/addnum'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=pubnum/addnum'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468992034.621
+    'REQUEST_TIME' => 1468992034
+]
+2016-07-20 05:21:42 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\models\Publicnum::appcheck' in /var/www/html/wei9A/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /var/www/html/wei9A/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('appcheck', 'wLYrp')
+#1 /var/www/html/wei9A/controllers/PubnumController.php(50): yii\db\BaseActiveRecord->__set('appcheck', 'wLYrp')
+#2 [internal function]: app\controllers\PubnumController->actionAddnum()
+#3 /var/www/html/wei9A/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('addnum', Array)
+#6 /var/www/html/wei9A/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('pubnum/addnum', Array)
+#7 /var/www/html/wei9A/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/wei9A/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-07-20 05:21:42 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 114.249.216.216
+2016-07-20 05:21:42 [114.249.216.216][-][0lf0khamqh7hvugplmhu67fc20][info][application] $_GET = [
+    'r' => 'pubnum/addnum'
+]
+
+$_POST = [
+    'appname' => 'qweq'
+    'appid' => 'wx92ac779ea9e5474b'
+    'appsecret' => '2341417098ab7e58ed01fd90d4caa34d'
+    'appdesc' => 'asdasda'
+]
+
+$_COOKIE = [
+    'uname' => 'admin'
+    'PHPSESSID' => '0lf0khamqh7hvugplmhu67fc20'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'uid' => '2'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'V48KZhLP0jUG2dQu9Vy7cAAAAAQ'
+    'HTTP_HOST' => '115.29.42.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://115.29.42.8/wei9A/web/index.php?r=pubnum/addnum'
+    'HTTP_COOKIE' => 'uname=admin; PHPSESSID=0lf0khamqh7hvugplmhu67fc20'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '96'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) PHP/5.4.16'
+    'SERVER_NAME' => '115.29.42.8'
+    'SERVER_ADDR' => '115.29.42.8'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '114.249.216.216'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/wei9A/web/index.php'
+    'REMOTE_PORT' => '61032'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=pubnum/addnum'
+    'REQUEST_URI' => '/wei9A/web/index.php?r=pubnum/addnum'
+    'SCRIPT_NAME' => '/wei9A/web/index.php'
+    'PHP_SELF' => '/wei9A/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468992102.128
+    'REQUEST_TIME' => 1468992102
+]
