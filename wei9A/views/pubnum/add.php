@@ -1,6 +1,6 @@
 <section>
     <h2><strong style="color:grey;"><?php echo isset($numDate) ? '修改' : '添加';?>公众号</strong></h2>
-    <form action="index.php?r=pubnum/addnum" method="post" id="myform" onsubmit="return che_all(true)">
+    <form action="" method="post" id="myform" onsubmit="return che_all(true)">
         <ul class="ulColumn2">
             <li>
                 <span class="item_name" style="width:120px;">公众号名称：</span>

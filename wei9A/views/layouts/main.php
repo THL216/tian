@@ -47,8 +47,8 @@
 <!--nav样式-->
 <script>
     $(function () {
-        var controller="<?echo Yii::$app->controller->id;?>";
-        var action="<?echo Yii::$app->controller->action->id;?>";
+        var controller="<?php echo Yii::$app->controller->id;?>";
+        var action="<?php echo Yii::$app->controller->action->id;?>";
         var href='index.php?r='+controller+'/'+action;
         $('dd a[href="'+href+'"]').attr('class','active');
     })
@@ -70,7 +70,7 @@
                 <dt>菜单管理</dt>
                 <!--当前链接则添加class:active-->
                 <dd><a href="index.php?r=menu/custom">自定义菜单</a></dd>
-                <dd><a href="index.php?r=menu/delAll">删除所有菜单</a></dd>
+                <dd><a href="index.php?r=menu/delall">删除所有菜单</a></dd>
             </dl>
         </li>
         <li>
@@ -96,10 +96,8 @@
 <!--点击加载-->
 <script>
     $(document).ready(function(){
-        $("#loading").click(function(){
             $(".loading_area").fadeIn();
-            $(".loading_area").fadeOut(1500);
-        });
+            $(".loading_area").fadeOut(500);
     });
 </script>
 <section class="loading_area">

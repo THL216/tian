@@ -44,9 +44,9 @@ class PubnumController extends Controller
             $pub = new Publicnum();
             $session = Yii::$app->session;
             $pub ->appid=$post['appid'];
-            $pub ->appname=$post['appname'];
-            $pub ->appsecret=$post['appsecret'];
-            $pub ->appdesc=$post['appdesc'];
+            $pub ->appname= htmlspecialchars($post['appname']);
+            $pub ->appsecret= htmlspecialchars($post['appsecret']);
+            $pub ->appdesc=htmlspecialchars($post['appdesc']);
             $pub ->appcheck=$atok;
             $pub ->apptoken  =  md5(rand(1000,9999));
             $pub ->appurl=$url;
@@ -93,10 +93,10 @@ class PubnumController extends Controller
         }else{
             $post = $request->post();
             $numObj = Publicnum::find()->where(['id'=>$id])->one();
-            $numObj->appname = $post['appname'];
+            $numObj->appname = htmlspecialchars($post['appname']);
             $numObj->appid = $post['appid'];
-            $numObj->appsecret = $post['appsecret'];
-            $numObj->appdesc = $post['appdesc'];
+            $numObj->appsecret = ($post['appsecret']);
+            $numObj->appdesc = htmlspecialchars($post['appdesc']);
             if($numObj->save(['id'=>$id])){
                 $this->redirect(['/pubnum/numlist']);
             }

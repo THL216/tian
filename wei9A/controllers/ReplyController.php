@@ -49,12 +49,15 @@ class ReplyController extends Controller
             return $this->render('add',['data'=>$data]);
         }else {
             $post = $request->post();
-            $pub = new Reply();
-
+            if($post['id']){
+                $pub = Reply::find()->where(['id'=>$post['id']])->one();
+            }else{
+                $pub = new Reply();
+            }
             $pub ->appid=$post['appid'];
-            $pub->rename = $post['rename'];
-            $pub->rekeyword = $post['rekeyword'];
-            $pub->redesc = $post['redesc'];
+            $pub->rename = htmlspecialchars($post['rename']);
+            $pub->rekeyword = htmlspecialchars($post['rekeyword']);
+            $pub->redesc = htmlspecialchars($post['redesc']);
             $pub->retype = 'txt';
             if($post['id']){
 
